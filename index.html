@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noid Lucifer</title>
+  <!-- Favicon -->
+  <link rel="icon" href="https://avatars0.githubusercontent.com/u/67302057" type="image/x-icon" />
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
+  <!-- Core theme CSS -->
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+  <!-- Parallax Pixel Background Animation -->
+  <section class="animated-background">
+    <div id="stars1"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+  </section>
+  <!-- End of Parallax Pixel Background Animation -->
+
+  <a id="profilePicture" href="#popup">
+    <img src="https://avatars0.githubusercontent.com/u/67302057" alt="Profile Picture">
+  </a>
+
+  <div class="overlay" id="popup">
+    <div class="popup">
+      <div class="popup-photo">
+        <a href="https://avatars0.githubusercontent.com/u/67302057" target="_blank">
+          <img src="https://avatars0.githubusercontent.com/u/67302057" alt="Profile Picture">
+        </a>
+      </div>
+      <div class="popup-quote">
+        Satisfy your soul, not the society.
+      </div>
+      <a class="popup-close" onclick="history.back()">&times;</a>
+    </div>
+  </div>
+
+  <div id="userName">
+    @xgorn
+  </div>
+
+  <div id="linksFlex">
+    <a class="linkflex" href="https://t.me/xgorn" target="_blank">
+      <i class="fab fa-telegram fa-2xl"></i>
+    </a>
+    <a class="linkflex" href="https://www.instagram.com/xnoide" target="_blank">
+      <i class="fab fa-instagram fa-2xl"></i>
+    </a>
+    <a class="linkflex" href="https://www.youtube.com/@xgorntv" target="_blank">
+      <i class="fab fa-youtube fa-2xl"></i>
+    </a>
+    <a class="linkflex" href="https://discord.com/users/895357948195405835" target="_blank">
+      <i class="fab fa-discord fa-2xl"></i>
+    </a>
+  </div>
+
+  <div id="links">
+    <a class="link" href="https://api.xgorn.pp.ua" target="_blank">
+      <i class="fa fa-laptop-code">&nbsp;</i>Rest API
+    </a>
+    <a class="link" href="https://github.com/X-Gorn" target="_blank">
+      <i class="fab fa-github">&nbsp;</i>GitHub
+    </a>
+    <a class="link" href="https://www.buymeacoffee.com/xgorn" target="_blank">
+      <i class="fa fa-coffee">&nbsp;</i>Buy me a Coffee
+    </a>
+    <a class="link" href="https://saweria.co/xgorn" target="_blank">
+      <i class="fab fa-optin-monster">&nbsp;</i>Saweria
+    </a>
+  </div>
+
+  <div id="hashtag">
+    #CodeEveryday<span id="currentYear"></span>
+  </div>
+  <script>
+      const currentYear = new Date().getFullYear();
+      document.getElementById('currentYear').textContent = currentYear;
+  </script>
+</body>
+
+</html>
